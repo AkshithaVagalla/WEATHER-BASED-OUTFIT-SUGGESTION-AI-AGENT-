@@ -4,10 +4,10 @@ import requests
 import random
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAXVYfpaOOE_jQZ2v22WIeg4SkNKxm2Jck")  # Replace with your Gemini API Key
+genai.configure(api_key="..................................")  # Replace with your Gemini API Key
 
 # OpenWeatherMap API
-weather_api_key = "ad8ff36c5c7a6f5a7bf313024be9da38"  # Replace with your OpenWeatherMap Key
+weather_api_key = "......................................."  # Replace with your OpenWeatherMap Key
 
 # Get weather data for city
 def get_weather(city):
