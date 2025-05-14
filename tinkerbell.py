@@ -6,8 +6,8 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 # --- API KEYS ---
-genai.configure(api_key="AIzaSyAXVYfpaOOE_jQZ2v22WIeg4SkNKxm2Jck")
-weather_api_key = "ad8ff36c5c7a6f5a7bf313024be9da38"  # OpenWeatherMap
+genai.configure(api_key="...............................................")
+weather_api_key = "........................................"  # OpenWeatherMap
 
 # --- Device and dtype configuration ---
 device = "cuda" if torch.cuda.is_available() else "cpu"
