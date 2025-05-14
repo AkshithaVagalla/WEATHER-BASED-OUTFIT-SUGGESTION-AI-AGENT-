@@ -26,7 +26,7 @@ if not all(col in styles_df.columns for col in required_columns):
 # Function to fetch real weather data using WeatherAPI (free version)
 def get_weather_data(city):
     base_url = "http://api.weatherapi.com/v1/current.json"
-    api_key = "f369f0a3dd3241148f1160038250205"  # Replace with your WeatherAPI key
+    api_key = "...................................................."  # Replace with your WeatherAPI key
     params = {
         'q': city,
         'key': api_key
